@@ -12,3 +12,16 @@ print 100 in sales #True or false
 # range
 print range(10)
 print range(3,10,2)
+
+
+sales.sort()
+print sales
+
+sales.reverse()
+print sales
+
+d ="2016/03/15"
+print d.split("/")
+
+a = ["a", "b", "c"]
+print "-".join(a)
