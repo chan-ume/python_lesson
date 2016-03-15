@@ -1,0 +1,5 @@
+ import urllib3
+>>> http = urllib3.PoolManager()
+>>> r =http.urlopen('GET', 'http://kiwitobes.com/wiki/Programming_language.html',preload_content=False)
+>>> contens = r.read()
+>>> print contens[0:50]
